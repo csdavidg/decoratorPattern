@@ -25,7 +25,7 @@ public class StarBuzzCoffeee {
 
 
         Beverage beverage2 = new HouseBlend();
-
+        beverage2.setSize(Beverage.Size.TALL);
         beverage2 = new Soy(beverage2);
         beverage2 = new Mocha(beverage2);
         beverage2 = new Mocha(beverage2);
